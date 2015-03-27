@@ -1,8 +1,9 @@
+//Developer Name: Jiajie Dang, Zheng Gao
+
 package crawler;
 
 
 import java.io.IOException;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -11,6 +12,9 @@ import org.jsoup.select.Elements;
 
 public class Crawler {
 
+	/*
+	 *This is for testing 
+	 */
 	public static void main(String[] args) throws IOException {
 		
 		// TODO Auto-generated method stub
@@ -24,8 +28,7 @@ public class Crawler {
 	}
 	
 	/*
-	 * 
-	 * 
+	 *This method is used to get information from a website  
 	 */
 	public static void processPage(String URL) throws IOException{
 		
